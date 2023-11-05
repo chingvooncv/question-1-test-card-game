@@ -1,0 +1,6 @@
+#player_environment {
+    border: 1px solid #717070;
+    border-radius: 5px;
+    min-height: 200px;
+    padding: 10px;
+}

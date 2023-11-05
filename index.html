@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- include vendor css files -->
+        <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+
+        <!-- include external css files -->	
+        <link rel="stylesheet" type="text/css" href="../css/custom.css"></link>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Input Field for Number of People -->
+                        <input id="number_of_people" class="form-control" type="number" placeholder="Number of People"/>
+                        <!-- Area to show error message if there is an error-->
+                        <small class="error-message text-danger"></small>
+                        <!-- Button to submit form value to backend-->
+                        <button id="deal-cards" class="btn btn-primary mt-2 float-right">Deal Cards</button>
+                    </div>
+
+                    <div class="col-lg-12 mt-4">
+                        <!-- Container to show return results-->
+                        <label>Results:</label>
+                        <div id="player_environment">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- include vendor js files -->
+        <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../vendor/bootstrap/js/popper.js"></script>
+	    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- include external js files -->	
+        <script src="../js/main.js"></script>
+    </body>
+</html>
